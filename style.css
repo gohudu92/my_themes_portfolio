@@ -3,3 +3,49 @@ Theme Name: My Portfolio
 Author: Hugo
 Description: A theme to present creative work
 */
+
+body {
+  font-family: sans-serif;
+}
+a, a:link, link:visited, link:hover, link:active{
+      color: #69797F;
+      text-decoration: none;
+}
+nav>div {
+    background-color: #fafafa;
+    border: solid 2px #eee;
+}
+nav>div>ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.menu-item{
+  display: inline-block;
+}
+.menu-item a{
+  display: block;
+  padding: 20px 10px;
+}
+.current-menu-item a {
+  background-color: #eee;
+  text-decoration: none;
+}
+.menu-item a:hover {
+  background-color: #fff;
+  text-decoration: underline;
+}
+h1{
+  text-align: center;
+  border-bottom: solid 1px #69797F;
+  margin: 10px 10%;
+}
+section main{
+  width: 80%;
+  margin: auto;
+}
+.gridcontainer h2 a{color: #333; font-size: 20px;}
+.gridcontainer .griditemleft{float: left; width: 300px; margin: 0 30px 20px 0;}
+.gridcontainer .griditemright{float: left; width: 300px;}
+.gridcontainer .postimage{margin: 0 0 5px 0;}
+.gridcontainer .postimage-title {text-align: center;}
